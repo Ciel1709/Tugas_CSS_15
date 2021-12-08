@@ -1,0 +1,60 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.box{
+    width: 200px;
+    height: 100px;
+    display: flex;
+    font-size: 22px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1{
+    background-color: greenyellow;
+    align-self: flex-end;
+}
+.box2{
+    background-color: rgb(255, 206, 47);
+    align-self: flex-start;
+}
+.box3{
+    background-color: rgb(47, 255, 151);
+    align-self: flex-end;
+}
+.box4{
+    background-color: rgb(47, 154, 255);
+    align-self: flex-start;
+}
+.box5{
+    background-color: rgb(47, 68, 255);
+    align-self: flex-end;
+}
+.box6{
+    background-color: rgb(255, 54, 47);
+    align-self: flex-start;
+}
+.box7{
+    background-color: rgb(196, 47, 255);
+    align-self: flex-end;
+}
+.box8{
+    background-color: rgb(255, 47, 134);
+    align-self: flex-start;
+}
+.box9{
+    background-color: rgb(255, 252, 47);
+    align-self: flex-end;
+}
+.box10{
+    background-color: rgb(32, 92, 141);
+    align-self: flex-start;
+}
+
+.container{
+    display: flex;
+    height: 200px;
+}
